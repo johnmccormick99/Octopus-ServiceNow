@@ -41,7 +41,7 @@ catch
 
 try
 {
-    $serviceNowChangeRequest = Get-ServiceNowChangeRequest -ServiceNowCredential $serviceNowCred -ServiceNowURL investec.service-now.com -MatchContains @{number=$_serviceNowChangeRequestNumber}
+    $serviceNowChangeRequest = Get-ServiceNowChangeRequest -ServiceNowCredential $serviceNowCred -ServiceNowURL xxx.service-now.com -MatchContains @{number=$_serviceNowChangeRequestNumber}
 }
 catch 
 {
